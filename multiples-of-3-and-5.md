@@ -3,14 +3,24 @@
 
 
 
+python
 ```
-
 mul = 0;
 for(i=1;i<1000;;i++):
   if (i%3==0||i%5==0):
     mul = mul+i
 return mul
+```
 
+js
+```
+mul = 0;
+for(i=1;i<1000;i++){
+  if (i%3==0||i%5==0){
+    mul = mul+i
+    }
+}
+alert( mul)
 
 ```
 
